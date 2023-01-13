@@ -1,0 +1,25 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 608px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 38em) {
+  .container {
+    max-width: 35rem;
+
+    margin: 2.4rem;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .image2 {
+    display: block;
+  }
+
+  .image1 {
+    display: none;
+  }
+}
