@@ -14,12 +14,4 @@
   .grid-2-cols {
     grid-template-columns: 1fr;
   }
-
-  .image2 {
-    display: block;
-  }
-
-  .image1 {
-    display: none;
-  }
 }

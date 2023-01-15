@@ -116,12 +116,31 @@
   width: 2rem;
 }
 
-.image1 {
-  display: block;
+.card-img {
+  overflow: hidden;
 }
 
-.image2 {
-  display: none;
+.img {
+  transition: all 0.4s;
+}
+
+.img:hover {
+  filter: brightness(1.1);
+  transform: scale(1.1);
+}
+
+.visually-hidden {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
 }
 /* 
 - Font sizes (px)
